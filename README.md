@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amiburnt
 
-## Getting Started
+Amiburnt is a product discovery project about early burnout awareness.
 
-First, run the development server:
+The project explores a simple hypothesis: burnout rarely happens overnight. It develops gradually through subtle changes in energy, routines, sleep, focus, motivation, and rest. Most people only recognize the pattern after they have already crossed the line.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repo documents the product thinking behind a lightweight landing page and discovery concept. It is intentionally framed around the problem, not a finished solution.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Product Vision
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Help people notice burnout patterns before gradual overload becomes their baseline.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Amiburnt is not intended to be another wellness dashboard, fitness tracker, stress score, or productivity optimization tool. The opportunity is to create a calmer way for people to recognize when their normal rhythm is drifting and reflect before a full crash.
 
-## Learn More
+## Problem
 
-To learn more about Next.js, take a look at the following resources:
+People often normalize early signs of burnout because the changes are small at first:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Energy feels lower, but still manageable.
+- Sleep gets less restorative.
+- Routines become harder to keep.
+- Focus starts to dull.
+- Motivation drops quietly.
+- Rest stops bringing people back to baseline.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Existing tools can measure individual signals, but they often miss the larger story: the gradual pattern of overload forming over weeks.
 
-## Deploy on Vercel
+## Hypothesis
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If people can notice subtle changes across habits and lived experience over time, they may be able to recognize burnout patterns earlier and make sense of overload before it feels normal.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Target User
+
+The initial research audience is people who have experienced gradual overload, especially:
+
+- Knowledge workers
+- Students
+- Caregivers
+- Founders
+- Clinicians
+- People in demanding roles where exhaustion is easy to normalize
+
+The goal is not to assume these users want another tracker. The goal is to understand whether they need language, reflection, and pattern recognition that feels calm rather than burdensome.
+
+## Discovery Questions
+
+- What changes do people notice before they describe themselves as burned out?
+- Which changes are easiest to miss in the moment?
+- What language feels accurate without feeling clinical or alarmist?
+- Would people trust a product that helps them notice patterns without giving scores?
+- What kind of reflection feels useful rather than becoming another thing to manage?
+- Would people prefer an app, wearable, journal-like experience, or something else?
+
+## Current Prototype
+
+The current landing page communicates the product direction and invites early research participation.
+
+The visual concept shows a possible pattern loop:
+
+1. A person has a familiar baseline.
+2. Small changes begin to accumulate.
+3. The product prompts a gentle check-in.
+4. Going easier may help patterns move back toward normal before burnout fully sets in.
+
+This is not presented as a validated intervention. It is a way to communicate the research hypothesis and gather better feedback.
+
+## What This Repo Demonstrates
+
+This project is designed as a product management portfolio artifact. It demonstrates:
+
+- Problem framing
+- Product positioning
+- Hypothesis-driven discovery
+- Research question design
+- Landing page storytelling
+- Translating ambiguous user pain into a testable concept
+- Resisting premature feature-building before validating the problem
+
+## Project Artifacts
+
+- `PRODUCT.md`: product direction, assumptions, research questions, and unknowns
+- `docs/product_brief.md`: concise product brief
+- `docs/hypothesis.md`: working hypothesis
+- `docs/interview_notes.md`: early research notes
+- `docs/roadmap.md`: discovery-stage roadmap
+- `app/page.tsx`: landing page prototype
+
+## Current Stage
+
+This is an early discovery project. The next step is not to add more features. The next step is to learn from people who have experienced gradual overload and understand whether the framing resonates.
+
