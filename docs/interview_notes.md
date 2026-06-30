@@ -3,7 +3,7 @@
 ## Initial themes
 - People often describe feeling "off" before they can name why.
 - They want awareness, not pressure.
-- Recovery cues are often more useful than stress alerts.
+- Routine changes may be more useful to discuss than alerts or scores.
 
 ## Open questions
 - What would make this feel trustworthy?
