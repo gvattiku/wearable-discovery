@@ -1,3 +1,5 @@
+import { TallyEmbed } from "@/components/TallyEmbed";
+
 const states = [
   {
     label: "Usual rhythm",
@@ -135,25 +137,28 @@ export default function Home() {
           </article>
         </section>
 
-        <section id="early-research" className="rounded-[2rem] border border-slate-200/80 bg-slate-950 px-7 py-7 text-slate-100 sm:px-8 lg:flex lg:items-end lg:justify-between lg:px-10">
-          <div className="max-w-2xl">
+        <section
+          id="early-research"
+          className="rounded-[2rem] border border-slate-200/80 bg-slate-950 px-7 py-12 text-slate-100 sm:px-8 sm:py-14 lg:px-10 lg:py-16"
+        >
+          <div className="mx-auto max-w-[700px]">
             <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-slate-400">
               Early research
             </p>
             <h2 className="mt-2 text-3xl font-semibold tracking-[-0.02em] sm:text-4xl">
-              Help explore what earlier burnout awareness should feel like.
+              Help Shape This Research
             </h2>
             <p className="mt-2 text-base leading-7 text-slate-400">
-              We are looking for early conversations with people who have experienced gradual overload, energy drift, or routine changes that were hard to recognize in the moment.
+              This project is still in discovery. I&apos;m trying to understand how people recognize burnout, what they notice too late, and where existing tools fall short.
             </p>
+            <div className="mt-4 space-y-1 text-sm leading-6 text-slate-400">
+              <p>The research takes about 5 minutes.</p>
+              <p>No account required. Email is optional.</p>
+            </div>
+            <div className="mt-8 overflow-hidden rounded-2xl bg-white p-3">
+              <TallyEmbed />
+            </div>
           </div>
-          {/* TODO: Replace this anchor with the real Tally or Google Form URL when the research survey is ready. */}
-          <a
-            href="#early-research"
-            className="mt-5 inline-flex rounded-full bg-white px-4.5 py-2.5 text-sm font-medium text-slate-950 transition hover:bg-slate-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white lg:mt-0"
-          >
-            Share your experience
-          </a>
         </section>
       </div>
     </main>
